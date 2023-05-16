@@ -1,9 +1,11 @@
-.titulo{
+.titulo{       /*class = titulo criada na função home, para mudança de cor e centralizar o titulo do h1 */
     color: blue;
     text-align: center;
 }
 
-.img{
+.img{    /*className = criada na imagem para alterar o tamanho da imagem e centralizar com um tamanho ideal*/
     width: 500px; 
     height: 500px;
+    display: block;
+    margin: 0 auto;
 }
