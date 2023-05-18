@@ -2,6 +2,7 @@ import { Grid, Typography, } from "@mui/material";
 import { Box } from "@mui/material";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from "@material-ui/icons/GitHub";
+import "./Footer.css"
 import React from "react";
 
 function Footer() {
@@ -14,7 +15,7 @@ function Footer() {
                 alignItems="center"
             >
                 <Grid alignItems="center" item xs={12}>
-                    <Box style={{ backgroundColor: "black", height: "120px" }}>
+                    <Box className="box1">
                         <Box
                             paddingTop={1}
                             display="flex"
@@ -22,34 +23,34 @@ function Footer() {
                             justifyContent="center"
                         >
                             <Typography
-                                variant="h5"
+                                variant="h4"
                                 align="center"
                                 gutterBottom
-                                style={{ color: "white" }}
+                               className="text"
                             >
                                 Siga-nos nas redes sociais{" "}
                             </Typography>
                         </Box>
                         <Box display="flex" alignItems="center" justifyContent="center">
                             <a href="https://github.com/RenanG7" target="_blank">
-                                <GitHubIcon style={{ fontSize: 50, color: "white" }} />
+                                <GitHubIcon className="redes"/>
                             </a>
 
                             <a
                                 href="https://www.linkedin.com/in/renan-gon%C3%A7alvez-a2416926b/"
                                 target="_blank"
                             >
-                                <LinkedInIcon style={{ fontSize: 60, color: "white" }} />
+                                <LinkedInIcon className="redes" />
                             </a>
                         </Box>
                     </Box>
-                    <Box style={{ backgroundColor: "grey", height: "60px" }}>
+                    <Box className="box2">
                         <Box paddingTop={1}>
                             <Typography
                                 variant="subtitle2"
                                 align="center"
                                 gutterBottom
-                                style={{ color: "white" }}
+                               className="box3"
                             >
                                 © 2023 Copyright:
                             </Typography>

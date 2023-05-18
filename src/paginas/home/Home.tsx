@@ -11,7 +11,7 @@ function Home() {
                 direction="row"
                 justifyContent="center"
                 alignItems="center"
-                style={{ backgroundColor: "blue" }}
+               className="caixa"
             >
                 <Grid alignItems="center" item xs={6}>
                     <Box paddingX={20}>
@@ -21,31 +21,26 @@ function Home() {
                             color="textPrimary"
                             component="h4"
                             align="center"
-                            style={{ color: "black", fontWeight: "bold" }}
+                            className="titulo"
                         >
                             Seja bem vindo(a)!
                         </Typography>
                         <Typography
-                            variant="h6"
+                            variant="h4"
                             gutterBottom
                             color="textPrimary"
-                            component="h6"
+                            component="h4"
                             align="center"
-                            style={{ color: "black", fontWeight: "bold" }}
+                            className="titulo"
                         >
-                            expresse aqui os seus pensamentos e opiniões!
+                            Expresse aqui os seus pensamentos e opiniões!
                         </Typography>
                     </Box>
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}></Box>
                         <Button
-                            className="outlinedButton"
                             variant="contained"
-                            style={{
-                                borderColor: "white",
-                                backgroundColor: "black",
-                                color: "white",
-                            }}
+                           className="botao"
                         >
                             Ver Postagens
                         </Button>
@@ -56,10 +51,10 @@ function Home() {
                         src="https://img.freepik.com/vetores-premium/espartano-de-desenho-animado-para-academia-de-logotipo_514366-13.jpg"
                         alt=""
                         width="600px"
-                        height="400px"
+                        height="610px"
                     />
                 </Grid>
-                <Grid xs={12} style={{ backgroundColor: "black" }}></Grid>
+                <Grid xs={12} className="postagens"></Grid>
             </Grid >
         </>
     );
