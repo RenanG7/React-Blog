@@ -1,0 +1,15 @@
+.imagem2{
+   
+    background-image: url(https://i.imgur.com/rjeKBYc.jpeg);
+    background-repeat: no-repeat; 
+    width: 100vh; 
+    min-height: 100vh; 
+    background-size: cover; 
+    background-position: center;
+}
+.texto2{
+    font-weight: bold !important;
+}
+.btnCancelar{
+    margin-right: 20px !important;  {/*Comando para dar espaçamento nos botoções*/}
+}
