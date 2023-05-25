@@ -48,19 +48,19 @@ function ListaPostagem() {
             </Typography>
             <Typography variant="body2" component="p">
               {post.tema?.descricao}
-            </Typography>
+            </Typography>     
           </CardContent>
           <CardActions>
             <Box display="flex" justifyContent="center" mb={1.5}>
 
-              <Link to={'/formularioPostagem/${post.id}'} className="text-decorator-none" >
+              <Link to={`/formularioPostagem/${post.id}`} className="text-decorator-none" >
                 <Box mx={1}>
                   <Button variant="contained" className="marginLeft" size='small' color="primary" >
                     atualizar
                   </Button>
                 </Box>
               </Link>
-              <Link to={'/deletar Postagem/${post.id}'} className="text-decorator-none">
+              <Link to={`/deletar Postagem/${post.id}`} className="text-decorator-none">
                 <Box mx={1}>
                   <Button variant="contained" size='small' color="secondary">
                     deletar
