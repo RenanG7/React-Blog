@@ -10,7 +10,7 @@ import Login from "./paginas/login/Login";
 import ListaTema from "./components/temas/listatema/ListaTema";
 import ListaPostagem from "./components/postagem/listapostagem/ListaPostagem";
 import CadastroPost from './components/postagem/cadastroPost/CadastroPost';
-import DeletarPostagem from './components/postagem/deleterPostagem/DeletarPostagem';
+import DeletarPostagem from './components/postagem/deletarPostagem/DeletarPostagem';
 import CadastroTema from './components/temas/cadastroTema/CadastroTema';
 import DeletarTema from './components/temas/deletarTema/DeletarTema';
 import { Provider } from 'react-redux';
